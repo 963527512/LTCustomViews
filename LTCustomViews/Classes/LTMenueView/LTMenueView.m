@@ -46,7 +46,6 @@
 {
     self = [super initWithFrame:frame];
     if (self) {
-        self.backgroundColor = [UIColor lightGrayColor];
         self.showsVerticalScrollIndicator = NO;
         self.showsHorizontalScrollIndicator = NO;
     }
