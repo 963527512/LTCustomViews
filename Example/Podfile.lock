@@ -1,0 +1,16 @@
+PODS:
+  - LTCustomViews (0.1.0)
+
+DEPENDENCIES:
+  - LTCustomViews (from `../`)
+
+EXTERNAL SOURCES:
+  LTCustomViews:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LTCustomViews: 548a4e94b178c6ca0b4c90ed1a546a77c11eb856
+
+PODFILE CHECKSUM: 8ae800de129648be95c3bc978501f4844b5db50e
+
+COCOAPODS: 1.2.0

@@ -1,0 +1,6 @@
+framework module LTCustomViews {
+  umbrella header "LTCustomViews-umbrella.h"
+
+  export *
+  module * { export * }
+}
