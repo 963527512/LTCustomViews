@@ -31,12 +31,12 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   # 上下按钮
-  s.subspec 'LTUpDownButton' do 'b'
+  s.subspec 'LTUpDownButton' do |b|
     b.source_files = 'LTCustomViews/Classes/LTUpDownButton/**/*'
   end
 
   # 左右滑动菜单
-  s.subspec 'LTMenueView' do 'm'
+  s.subspec 'LTMenueView' do |m|
     m.source_files = 'LTCustomViews/Classes/LTMenueView/**/*'
     m.dependency 'LTCustomViews/LTUpDownButton'
   end
