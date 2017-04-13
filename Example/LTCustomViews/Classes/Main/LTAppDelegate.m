@@ -7,12 +7,17 @@
 //
 
 #import "LTAppDelegate.h"
+#import "LTTableViewController.h"
 
 @implementation LTAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    UINavigationController *naVc = [[UINavigationController alloc] initWithRootViewController:[LTTableViewController new]];
+    self.window.rootViewController = naVc;
+    [self.window makeKeyAndVisible];
+    self.window.backgroundColor = [UIColor whiteColor];
+    
     return YES;
 }
 

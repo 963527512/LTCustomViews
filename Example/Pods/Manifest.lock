@@ -1,5 +1,45 @@
 PODS:
-  - LTCustomViews (0.1.0)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - LTCustomFunctions/LTTimer (0.1.0)
+  - LTCustomViews (0.1.0):
+    - AFNetworking
+    - LTCustomViews/LTMenueView (= 0.1.0)
+    - LTCustomViews/LTShufflingView (= 0.1.0)
+    - LTCustomViews/LTUpDownButton (= 0.1.0)
+    - MJExtension
+    - SDWebImage
+  - LTCustomViews/LTMenueView (0.1.0):
+    - AFNetworking
+    - LTCustomViews/LTUpDownButton
+    - MJExtension
+    - SDWebImage
+  - LTCustomViews/LTShufflingView (0.1.0):
+    - AFNetworking
+    - LTCustomFunctions/LTTimer
+    - MJExtension
+    - SDWebImage
+  - LTCustomViews/LTUpDownButton (0.1.0):
+    - AFNetworking
+    - MJExtension
+    - SDWebImage
+  - MJExtension (3.0.13)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
 
 DEPENDENCIES:
   - LTCustomViews (from `../`)
@@ -9,7 +49,11 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  LTCustomViews: 548a4e94b178c6ca0b4c90ed1a546a77c11eb856
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  LTCustomFunctions: ff51abafc1b80f20ca9a121e9cba92820457d12b
+  LTCustomViews: 84529b4f6aef963c62ebd5d232f3e5ff7a102898
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
 PODFILE CHECKSUM: 8ae800de129648be95c3bc978501f4844b5db50e
 

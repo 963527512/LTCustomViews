@@ -11,6 +11,7 @@
 #endif
 
 #import "LTMenueView.h"
+#import "LTShufflingView.h"
 #import "LTUpDownButton.h"
 
 FOUNDATION_EXPORT double LTCustomViewsVersionNumber;

@@ -12,15 +12,19 @@
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
-		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* LTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* LTAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* LTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* LTViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		702346A11E9F3E3900EE18CA /* LTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 702346961E9F3E3900EE18CA /* LTAppDelegate.m */; };
+		702346A21E9F3E3900EE18CA /* LTCustomViews-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 702346971E9F3E3900EE18CA /* LTCustomViews-Info.plist */; };
+		702346A31E9F3E3900EE18CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 702346991E9F3E3900EE18CA /* main.m */; };
+		702346A41E9F3E3900EE18CA /* LTShufflingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7023469D1E9F3E3900EE18CA /* LTShufflingViewController.m */; };
+		702346A51E9F3E3900EE18CA /* LTFocusImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 702346A01E9F3E3900EE18CA /* LTFocusImageModel.m */; };
+		702346A81E9F3E6400EE18CA /* LTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702346A71E9F3E6400EE18CA /* LTTableViewController.m */; };
+		702346AB1E9F409700EE18CA /* LTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702346AA1E9F409700EE18CA /* LTBaseViewController.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9BCD3F8AF24D6F44030F0D89 /* Pods_LTCustomViews_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F1E723A998AB21EDAE64CF /* Pods_LTCustomViews_Tests.framework */; };
@@ -40,19 +44,12 @@
 		07E95CA1A2172745A27E6E91 /* Pods-LTCustomViews_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTCustomViews_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTCustomViews_Tests/Pods-LTCustomViews_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		08F1E723A998AB21EDAE64CF /* Pods_LTCustomViews_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTCustomViews_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		443F8287A7BAE5A6AB8561C0 /* Pods-LTCustomViews_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTCustomViews_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTCustomViews_Example/Pods-LTCustomViews_Example.release.xcconfig"; sourceTree = "<group>"; };
-		5123B2F326BDDB38053876FB /* LTCustomViews.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = LTCustomViews.podspec; path = ../LTCustomViews.podspec; sourceTree = "<group>"; };
+		5123B2F326BDDB38053876FB /* LTCustomViews.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LTCustomViews.podspec; path = ../LTCustomViews.podspec; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* LTCustomViews_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LTCustomViews_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* LTCustomViews-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LTCustomViews-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* LTCustomViews-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LTCustomViews-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* LTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* LTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* LTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LTViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* LTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LTViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* LTCustomViews_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LTCustomViews_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,12 +58,25 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6F1E3B6AB27004FB6982ECA4 /* Pods-LTCustomViews_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTCustomViews_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTCustomViews_Tests/Pods-LTCustomViews_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		702346951E9F3E3900EE18CA /* LTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTAppDelegate.h; sourceTree = "<group>"; };
+		702346961E9F3E3900EE18CA /* LTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTAppDelegate.m; sourceTree = "<group>"; };
+		702346971E9F3E3900EE18CA /* LTCustomViews-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LTCustomViews-Info.plist"; sourceTree = "<group>"; };
+		702346981E9F3E3900EE18CA /* LTCustomViews-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "LTCustomViews-Prefix.pch"; sourceTree = "<group>"; };
+		702346991E9F3E3900EE18CA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7023469C1E9F3E3900EE18CA /* LTShufflingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTShufflingViewController.h; sourceTree = "<group>"; };
+		7023469D1E9F3E3900EE18CA /* LTShufflingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTShufflingViewController.m; sourceTree = "<group>"; };
+		7023469F1E9F3E3900EE18CA /* LTFocusImageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTFocusImageModel.h; sourceTree = "<group>"; };
+		702346A01E9F3E3900EE18CA /* LTFocusImageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTFocusImageModel.m; sourceTree = "<group>"; };
+		702346A61E9F3E6400EE18CA /* LTTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTableViewController.h; sourceTree = "<group>"; };
+		702346A71E9F3E6400EE18CA /* LTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTableViewController.m; sourceTree = "<group>"; };
+		702346A91E9F409600EE18CA /* LTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTBaseViewController.h; sourceTree = "<group>"; };
+		702346AA1E9F409700EE18CA /* LTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTBaseViewController.m; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8DEF1A41D9C93D727D32767A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8DEF1A41D9C93D727D32767A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		A2E04A4C6241C6BE67C22982 /* Pods_LTCustomViews_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LTCustomViews_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBF7EC913D023DDC04EB08F7 /* Pods-LTCustomViews_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTCustomViews_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LTCustomViews_Example/Pods-LTCustomViews_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		DBAC1BA4677169DBC8990417 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		DBAC1BA4677169DBC8990417 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,13 +142,7 @@
 		6003F593195388D20070C39A /* Example for LTCustomViews */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* LTAppDelegate.h */,
-				6003F59D195388D20070C39A /* LTAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* LTViewController.h */,
-				6003F5A6195388D20070C39A /* LTViewController.m */,
-				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
+				702346921E9F3E3900EE18CA /* Classes */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for LTCustomViews";
@@ -148,10 +152,10 @@
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* LTCustomViews-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
-				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* LTCustomViews-Prefix.pch */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
+				6003F5A8195388D20070C39A /* Images.xcassets */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -183,6 +187,67 @@
 				DBAC1BA4677169DBC8990417 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		702346921E9F3E3900EE18CA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				702346931E9F3E3900EE18CA /* LTViewController */,
+				702346941E9F3E3900EE18CA /* Main */,
+				7023469A1E9F3E3900EE18CA /* LTShufflingView */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		702346931E9F3E3900EE18CA /* LTViewController */ = {
+			isa = PBXGroup;
+			children = (
+				702346A61E9F3E6400EE18CA /* LTTableViewController.h */,
+				702346A71E9F3E6400EE18CA /* LTTableViewController.m */,
+				702346A91E9F409600EE18CA /* LTBaseViewController.h */,
+				702346AA1E9F409700EE18CA /* LTBaseViewController.m */,
+			);
+			path = LTViewController;
+			sourceTree = "<group>";
+		};
+		702346941E9F3E3900EE18CA /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				702346951E9F3E3900EE18CA /* LTAppDelegate.h */,
+				702346961E9F3E3900EE18CA /* LTAppDelegate.m */,
+				702346971E9F3E3900EE18CA /* LTCustomViews-Info.plist */,
+				702346981E9F3E3900EE18CA /* LTCustomViews-Prefix.pch */,
+				702346991E9F3E3900EE18CA /* main.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7023469A1E9F3E3900EE18CA /* LTShufflingView */ = {
+			isa = PBXGroup;
+			children = (
+				7023469B1E9F3E3900EE18CA /* Controller */,
+				7023469E1E9F3E3900EE18CA /* Model */,
+			);
+			name = LTShufflingView;
+			path = TShufflingView;
+			sourceTree = "<group>";
+		};
+		7023469B1E9F3E3900EE18CA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7023469C1E9F3E3900EE18CA /* LTShufflingViewController.h */,
+				7023469D1E9F3E3900EE18CA /* LTShufflingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7023469E1E9F3E3900EE18CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7023469F1E9F3E3900EE18CA /* LTFocusImageModel.h */,
+				702346A01E9F3E3900EE18CA /* LTFocusImageModel.m */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		BD28C413D1E4163C61644A6D /* Pods */ = {
@@ -281,6 +346,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				702346A21E9F3E3900EE18CA /* LTCustomViews-Info.plist in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -394,9 +460,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* LTAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* LTViewController.m in Sources */,
-				6003F59A195388D20070C39A /* main.m in Sources */,
+				702346A81E9F3E6400EE18CA /* LTTableViewController.m in Sources */,
+				702346A31E9F3E3900EE18CA /* main.m in Sources */,
+				702346A41E9F3E3900EE18CA /* LTShufflingViewController.m in Sources */,
+				702346A11E9F3E3900EE18CA /* LTAppDelegate.m in Sources */,
+				702346A51E9F3E3900EE18CA /* LTFocusImageModel.m in Sources */,
+				702346AB1E9F409700EE18CA /* LTBaseViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,8 +594,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LTCustomViews/LTCustomViews-Prefix.pch";
-				INFOPLIST_FILE = "LTCustomViews/LTCustomViews-Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LTCustomViews/Classes/Main/LTCustomViews-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/LTCustomViews/Classes/Main/LTCustomViews-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -540,8 +609,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "LTCustomViews/LTCustomViews-Prefix.pch";
-				INFOPLIST_FILE = "LTCustomViews/LTCustomViews-Info.plist";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/LTCustomViews/Classes/Main/LTCustomViews-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/LTCustomViews/Classes/Main/LTCustomViews-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";

@@ -1,22 +1,56 @@
 {
   "name": "LTCustomViews",
   "version": "0.1.0",
-  "summary": "A short description of LTCustomViews.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/963527512@qq.com/LTCustomViews",
+  "summary": "LTCustomViews.",
+  "description": "'自定义控件集合, 用于存放个人所有自定义的控件'",
+  "homepage": "https://github.com/963527512/LTCustomViews",
   "license": {
-    "type": "MIT",
+    "type": "Apache License, Version 2.0",
     "file": "LICENSE"
   },
   "authors": {
-    "963527512@qq.com": "963527512@qq.com"
+    "冰凌天": "963527512@qq.com"
   },
   "source": {
-    "git": "https://github.com/963527512@qq.com/LTCustomViews.git",
+    "git": "https://github.com/963527512/LTCustomViews.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "LTCustomViews/Classes/**/*"
+  "dependencies": {
+    "AFNetworking": [
+
+    ],
+    "SDWebImage": [
+
+    ],
+    "MJExtension": [
+
+    ]
+  },
+  "subspecs": [
+    {
+      "name": "LTUpDownButton",
+      "source_files": "LTCustomViews/Classes/LTUpDownButton/**/*"
+    },
+    {
+      "name": "LTMenueView",
+      "source_files": "LTCustomViews/Classes/LTMenueView/**/*",
+      "dependencies": {
+        "LTCustomViews/LTUpDownButton": [
+
+        ]
+      }
+    },
+    {
+      "name": "LTShufflingView",
+      "source_files": "LTCustomViews/Classes/LTShufflingView/**/*",
+      "dependencies": {
+        "LTCustomFunctions/LTTimer": [
+
+        ]
+      }
+    }
+  ]
 }

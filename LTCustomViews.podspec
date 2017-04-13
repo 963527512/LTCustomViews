@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LTCustomViews'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'LTCustomViews.'
 
 # This description is used to generate tags and improve search results.
@@ -40,7 +40,13 @@ Pod::Spec.new do |s|
     m.source_files = 'LTCustomViews/Classes/LTMenueView/**/*'
     m.dependency 'LTCustomViews/LTUpDownButton'
   end
-  
+
+  # 轮播图
+  s.subspec 'LTShufflingView' do |s|
+    s.source_files = 'LTCustomViews/Classes/LTShufflingView/**/*'
+    s.dependency 'LTCustomFunctions/LTTimer'
+  end
+
   # s.resource_bundles = {
   #   'LTCustomViews' => ['LTCustomViews/Assets/*.png']
   # }
