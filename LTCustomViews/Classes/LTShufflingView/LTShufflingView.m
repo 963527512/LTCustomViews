@@ -114,7 +114,9 @@
  */
 - (void)adjustPicturePosition
 {
-    [self caculateCurrentPage:_scrollView];
+    CGFloat width = self.scrollView.frame.size.width;
+    NSInteger index = (NSInteger)(self.scrollView.contentOffset.x / width + 0.5);
+    [self.scrollView setContentOffset:CGPointMake(index * width, 0) animated:YES];
 }
 
 #pragma mark - < 私有方法 >

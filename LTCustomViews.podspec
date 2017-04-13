@@ -47,9 +47,9 @@ Pod::Spec.new do |s|
     s.dependency 'LTCustomFunctions/LTTimer'
   end
 
-  # s.resource_bundles = {
-  #   'LTCustomViews' => ['LTCustomViews/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'LTCustomViews' => ['LTCustomViews/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
