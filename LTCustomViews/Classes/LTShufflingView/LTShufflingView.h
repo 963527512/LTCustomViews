@@ -21,7 +21,7 @@ typedef void (^LTLoadImageBlock)(UIImageView *imageView, NSInteger index);
 /** 点击事件 */
 @property (nonatomic, copy) LTClickEvent clickEvent;
 
-/** 图片缩放模式 默认 - UIViewContentModeScaleAspectFit */
+/** 图片缩放模式 默认 - UIViewContentModeScaleAspectFill */
 @property (nonatomic, assign) UIViewContentMode contentMode;
 
 /** pageControl距离控件底部的距离 默认 - 20 */

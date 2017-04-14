@@ -8,10 +8,7 @@
 
 #import "LTShufflingViewController.h"
 #import "LTShufflingView.h"
-#import "AFNetworking.h"
 #import "LTFocusImageModel.h"
-#import "MJExtension.h"
-#import "UIImageView+WebCache.h"
 
 #define kBaseUrl @"http://mobile.ximalaya.com/"
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LTCustomViews'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'LTCustomViews.'
 
 # This description is used to generate tags and improve search results.
@@ -47,9 +47,20 @@ Pod::Spec.new do |s|
     s.dependency 'LTCustomFunctions/LTTimer'
   end
 
-   s.resource_bundles = {
-     'LTCustomViews' => ['LTCustomViews/Assets/*.png']
-   }
+  # 选项卡
+    s.subspec 'LTSegmentBar' do |sb|
+    sb.source_files = 'LTCustomViews/Classes/LTSegmentBar/**/*'
+    sb.dependency 'LTCustomCategorys/UIView'
+  end
+
+#s.dependency 'AFNetworking'
+#s.dependency 'MJExtension'
+#s.dependency 'SDWebImage'
+
+
+  # s.resource_bundles = {
+  #  'LTCustomViews' => ['LTCustomViews/Assets/*.png']
+  # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

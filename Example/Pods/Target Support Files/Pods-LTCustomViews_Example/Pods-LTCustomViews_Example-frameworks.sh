@@ -90,6 +90,7 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/LTCustomCategorys/LTCustomCategorys.framework"
   install_framework "$BUILT_PRODUCTS_DIR/LTCustomFunctions/LTCustomFunctions.framework"
   install_framework "$BUILT_PRODUCTS_DIR/LTCustomViews/LTCustomViews.framework"
   install_framework "$BUILT_PRODUCTS_DIR/MJExtension/MJExtension.framework"
@@ -97,6 +98,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "$BUILT_PRODUCTS_DIR/AFNetworking/AFNetworking.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/LTCustomCategorys/LTCustomCategorys.framework"
   install_framework "$BUILT_PRODUCTS_DIR/LTCustomFunctions/LTCustomFunctions.framework"
   install_framework "$BUILT_PRODUCTS_DIR/LTCustomViews/LTCustomViews.framework"
   install_framework "$BUILT_PRODUCTS_DIR/MJExtension/MJExtension.framework"

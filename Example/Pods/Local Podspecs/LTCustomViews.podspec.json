@@ -1,6 +1,6 @@
 {
   "name": "LTCustomViews",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "summary": "LTCustomViews.",
   "description": "'自定义控件集合, 用于存放个人所有自定义的控件'",
   "homepage": "https://github.com/963527512/LTCustomViews",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/963527512/LTCustomViews.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0"
@@ -22,10 +22,10 @@
     "AFNetworking": [
 
     ],
-    "SDWebImage": [
+    "MJExtension": [
 
     ],
-    "MJExtension": [
+    "SDWebImage": [
 
     ]
   },
@@ -48,6 +48,15 @@
       "source_files": "LTCustomViews/Classes/LTShufflingView/**/*",
       "dependencies": {
         "LTCustomFunctions/LTTimer": [
+
+        ]
+      }
+    },
+    {
+      "name": "LTSegmentBar",
+      "source_files": "LTCustomViews/Classes/LTSegmentBar/**/*",
+      "dependencies": {
+        "LTCustomCategorys/UIView": [
 
         ]
       }

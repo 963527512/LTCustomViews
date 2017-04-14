@@ -30,17 +30,31 @@
 
 @implementation LTShufflingView
 
-#pragma mark - < 构造方法 >
+#pragma mark - < 构造方法 / 初始化设置 >
 
 - (instancetype)initWithFrame:(CGRect)frame
 {
     self = [super initWithFrame:frame];
     if (self) {
-        _interval = 3;
-        _contentMode = UIViewContentModeScaleAspectFit;
-        _pageControlBottomInSuperView = 20;
+        [self setUpInit];
     }
     return self;
+}
+
+- (void)awakeFromNib
+{
+    [super awakeFromNib];
+    [self setUpInit];
+}
+
+/**
+ 初始化设置
+ */
+- (void)setUpInit
+{
+    _interval = 3;
+    _contentMode = UIViewContentModeScaleAspectFill;
+    _pageControlBottomInSuperView = 20;
 }
 
 #pragma mark - < 接口 >
@@ -72,6 +86,7 @@
         imageView.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleHeight;
         // 图片内容缩放模式
         imageView.contentMode = _contentMode;
+        imageView.clipsToBounds = YES;
         // 添加到图片数组
         [self.imageViews addObject:imageView];
         

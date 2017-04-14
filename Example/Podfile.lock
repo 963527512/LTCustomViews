@@ -14,25 +14,32 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - LTCustomCategorys/UIView (0.2.0)
   - LTCustomFunctions/LTTimer (0.1.0)
-  - LTCustomViews (0.1.0):
+  - LTCustomViews (0.3.0):
     - AFNetworking
-    - LTCustomViews/LTMenueView (= 0.1.0)
-    - LTCustomViews/LTShufflingView (= 0.1.0)
-    - LTCustomViews/LTUpDownButton (= 0.1.0)
+    - LTCustomViews/LTMenueView (= 0.3.0)
+    - LTCustomViews/LTSegmentBar (= 0.3.0)
+    - LTCustomViews/LTShufflingView (= 0.3.0)
+    - LTCustomViews/LTUpDownButton (= 0.3.0)
     - MJExtension
     - SDWebImage
-  - LTCustomViews/LTMenueView (0.1.0):
+  - LTCustomViews/LTMenueView (0.3.0):
     - AFNetworking
     - LTCustomViews/LTUpDownButton
     - MJExtension
     - SDWebImage
-  - LTCustomViews/LTShufflingView (0.1.0):
+  - LTCustomViews/LTSegmentBar (0.3.0):
+    - AFNetworking
+    - LTCustomCategorys/UIView
+    - MJExtension
+    - SDWebImage
+  - LTCustomViews/LTShufflingView (0.3.0):
     - AFNetworking
     - LTCustomFunctions/LTTimer
     - MJExtension
     - SDWebImage
-  - LTCustomViews/LTUpDownButton (0.1.0):
+  - LTCustomViews/LTUpDownButton (0.3.0):
     - AFNetworking
     - MJExtension
     - SDWebImage
@@ -50,8 +57,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  LTCustomCategorys: 18f4876ed68e7f6573b5a4cd4fc1349e01f881d9
   LTCustomFunctions: ff51abafc1b80f20ca9a121e9cba92820457d12b
-  LTCustomViews: 84529b4f6aef963c62ebd5d232f3e5ff7a102898
+  LTCustomViews: 23576c018e6906c4eec6389e603068823c59d8b4
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 

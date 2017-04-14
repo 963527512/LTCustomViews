@@ -18,6 +18,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		700924781EA0796E00D2ED05 /* LTSubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 700924771EA0796E00D2ED05 /* LTSubViewController.m */; };
 		702346A11E9F3E3900EE18CA /* LTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 702346961E9F3E3900EE18CA /* LTAppDelegate.m */; };
 		702346A21E9F3E3900EE18CA /* LTCustomViews-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 702346971E9F3E3900EE18CA /* LTCustomViews-Info.plist */; };
 		702346A31E9F3E3900EE18CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 702346991E9F3E3900EE18CA /* main.m */; };
@@ -25,6 +26,7 @@
 		702346A51E9F3E3900EE18CA /* LTFocusImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 702346A01E9F3E3900EE18CA /* LTFocusImageModel.m */; };
 		702346A81E9F3E6400EE18CA /* LTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702346A71E9F3E6400EE18CA /* LTTableViewController.m */; };
 		702346AB1E9F409700EE18CA /* LTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702346AA1E9F409700EE18CA /* LTBaseViewController.m */; };
+		70687F761EA1013E0007B9CA /* LTSegmentBarVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 70687F751EA1013E0007B9CA /* LTSegmentBarVc.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9BCD3F8AF24D6F44030F0D89 /* Pods_LTCustomViews_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F1E723A998AB21EDAE64CF /* Pods_LTCustomViews_Tests.framework */; };
@@ -58,6 +60,8 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6F1E3B6AB27004FB6982ECA4 /* Pods-LTCustomViews_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LTCustomViews_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-LTCustomViews_Tests/Pods-LTCustomViews_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		700924761EA0796E00D2ED05 /* LTSubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSubViewController.h; sourceTree = "<group>"; };
+		700924771EA0796E00D2ED05 /* LTSubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSubViewController.m; sourceTree = "<group>"; };
 		702346951E9F3E3900EE18CA /* LTAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTAppDelegate.h; sourceTree = "<group>"; };
 		702346961E9F3E3900EE18CA /* LTAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTAppDelegate.m; sourceTree = "<group>"; };
 		702346971E9F3E3900EE18CA /* LTCustomViews-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "LTCustomViews-Info.plist"; sourceTree = "<group>"; };
@@ -71,6 +75,8 @@
 		702346A71E9F3E6400EE18CA /* LTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTableViewController.m; sourceTree = "<group>"; };
 		702346A91E9F409600EE18CA /* LTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTBaseViewController.h; sourceTree = "<group>"; };
 		702346AA1E9F409700EE18CA /* LTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTBaseViewController.m; sourceTree = "<group>"; };
+		70687F741EA1013E0007B9CA /* LTSegmentBarVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSegmentBarVc.h; sourceTree = "<group>"; };
+		70687F751EA1013E0007B9CA /* LTSegmentBarVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSegmentBarVc.m; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DEF1A41D9C93D727D32767A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -195,6 +201,7 @@
 				702346931E9F3E3900EE18CA /* LTViewController */,
 				702346941E9F3E3900EE18CA /* Main */,
 				7023469A1E9F3E3900EE18CA /* LTShufflingView */,
+				708B751A1E9F58F900240611 /* LTSegmentBar */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -248,6 +255,33 @@
 				702346A01E9F3E3900EE18CA /* LTFocusImageModel.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		708B751A1E9F58F900240611 /* LTSegmentBar */ = {
+			isa = PBXGroup;
+			children = (
+				708B751B1E9F58F900240611 /* Controller */,
+				708B751C1E9F58F900240611 /* View  */,
+			);
+			path = LTSegmentBar;
+			sourceTree = "<group>";
+		};
+		708B751B1E9F58F900240611 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				700924761EA0796E00D2ED05 /* LTSubViewController.h */,
+				700924771EA0796E00D2ED05 /* LTSubViewController.m */,
+				70687F741EA1013E0007B9CA /* LTSegmentBarVc.h */,
+				70687F751EA1013E0007B9CA /* LTSegmentBarVc.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		708B751C1E9F58F900240611 /* View  */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "View ";
 			sourceTree = "<group>";
 		};
 		BD28C413D1E4163C61644A6D /* Pods */ = {
@@ -464,8 +498,10 @@
 				702346A31E9F3E3900EE18CA /* main.m in Sources */,
 				702346A41E9F3E3900EE18CA /* LTShufflingViewController.m in Sources */,
 				702346A11E9F3E3900EE18CA /* LTAppDelegate.m in Sources */,
+				70687F761EA1013E0007B9CA /* LTSegmentBarVc.m in Sources */,
 				702346A51E9F3E3900EE18CA /* LTFocusImageModel.m in Sources */,
 				702346AB1E9F409700EE18CA /* LTBaseViewController.m in Sources */,
+				700924781EA0796E00D2ED05 /* LTSubViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

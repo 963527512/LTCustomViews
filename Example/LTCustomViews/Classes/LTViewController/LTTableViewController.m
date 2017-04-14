@@ -8,6 +8,7 @@
 
 #import "LTTableViewController.h"
 #import "LTShufflingViewController.h"           // 轮播图测试界面
+#import "LTSegmentBarVc.h"                      // 分段测试界面
 
 @interface LTTableViewController ()
 
@@ -23,8 +24,11 @@
     
     self.view.backgroundColor = [UIColor whiteColor];
     
+    self.navigationItem.title = @"自定义控件";
+    
     self.titles = @[
-                    @"LTShufflingView"
+                    @"LTShufflingView",
+                    @"LTSegmentBar"
                     ];
 }
 
@@ -63,6 +67,11 @@
             [self.navigationController pushViewController:sVc animated:YES];
         }
             break;
+        case 1:
+        {
+            LTSegmentBarVc *sVc = [[LTSegmentBarVc alloc] init];
+            [self.navigationController pushViewController:sVc animated:YES];
+        }
         default:
             break;
     }
