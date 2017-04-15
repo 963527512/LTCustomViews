@@ -60,6 +60,10 @@
 
         ]
       }
+    },
+    {
+      "name": "LTTimeSelectorView",
+      "source_files": "LTCustomViews/Classes/LTTimeSelectorView/**/*"
     }
   ]
 }

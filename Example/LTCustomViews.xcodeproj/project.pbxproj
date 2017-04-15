@@ -26,6 +26,7 @@
 		702346A51E9F3E3900EE18CA /* LTFocusImageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 702346A01E9F3E3900EE18CA /* LTFocusImageModel.m */; };
 		702346A81E9F3E6400EE18CA /* LTTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702346A71E9F3E6400EE18CA /* LTTableViewController.m */; };
 		702346AB1E9F409700EE18CA /* LTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702346AA1E9F409700EE18CA /* LTBaseViewController.m */; };
+		705C830D1EA2078C00E9D818 /* LTTimeSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705C830C1EA2078C00E9D818 /* LTTimeSelectorViewController.m */; };
 		70687F761EA1013E0007B9CA /* LTSegmentBarVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 70687F751EA1013E0007B9CA /* LTSegmentBarVc.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
@@ -75,6 +76,8 @@
 		702346A71E9F3E6400EE18CA /* LTTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTableViewController.m; sourceTree = "<group>"; };
 		702346A91E9F409600EE18CA /* LTBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTBaseViewController.h; sourceTree = "<group>"; };
 		702346AA1E9F409700EE18CA /* LTBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTBaseViewController.m; sourceTree = "<group>"; };
+		705C830B1EA2078C00E9D818 /* LTTimeSelectorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTTimeSelectorViewController.h; sourceTree = "<group>"; };
+		705C830C1EA2078C00E9D818 /* LTTimeSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTimeSelectorViewController.m; sourceTree = "<group>"; };
 		70687F741EA1013E0007B9CA /* LTSegmentBarVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSegmentBarVc.h; sourceTree = "<group>"; };
 		70687F751EA1013E0007B9CA /* LTSegmentBarVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSegmentBarVc.m; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -202,6 +205,7 @@
 				702346941E9F3E3900EE18CA /* Main */,
 				7023469A1E9F3E3900EE18CA /* LTShufflingView */,
 				708B751A1E9F58F900240611 /* LTSegmentBar */,
+				705C83091EA2077B00E9D818 /* LTTimeSelectorView */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -255,6 +259,23 @@
 				702346A01E9F3E3900EE18CA /* LTFocusImageModel.m */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		705C83091EA2077B00E9D818 /* LTTimeSelectorView */ = {
+			isa = PBXGroup;
+			children = (
+				705C830A1EA2077B00E9D818 /* Controller */,
+				705C830B1EA2078C00E9D818 /* LTTimeSelectorViewController.h */,
+				705C830C1EA2078C00E9D818 /* LTTimeSelectorViewController.m */,
+			);
+			path = LTTimeSelectorView;
+			sourceTree = "<group>";
+		};
+		705C830A1EA2077B00E9D818 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		708B751A1E9F58F900240611 /* LTSegmentBar */ = {
@@ -349,6 +370,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "963527512@qq.com";
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 9G662QXGUR;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -500,6 +524,7 @@
 				702346A11E9F3E3900EE18CA /* LTAppDelegate.m in Sources */,
 				70687F761EA1013E0007B9CA /* LTSegmentBarVc.m in Sources */,
 				702346A51E9F3E3900EE18CA /* LTFocusImageModel.m in Sources */,
+				705C830D1EA2078C00E9D818 /* LTTimeSelectorViewController.m in Sources */,
 				702346AB1E9F409700EE18CA /* LTBaseViewController.m in Sources */,
 				700924781EA0796E00D2ED05 /* LTSubViewController.m in Sources */,
 			);
@@ -629,6 +654,7 @@
 			baseConfigurationReference = BBF7EC913D023DDC04EB08F7 /* Pods-LTCustomViews_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9G662QXGUR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LTCustomViews/Classes/Main/LTCustomViews-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/LTCustomViews/Classes/Main/LTCustomViews-Info.plist";
@@ -644,6 +670,7 @@
 			baseConfigurationReference = 443F8287A7BAE5A6AB8561C0 /* Pods-LTCustomViews_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9G662QXGUR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/LTCustomViews/Classes/Main/LTCustomViews-Prefix.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/LTCustomViews/Classes/Main/LTCustomViews-Info.plist";

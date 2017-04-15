@@ -15,6 +15,7 @@
 #import "LTSegmentBarConfig.h"
 #import "LTSegmentBarViewController.h"
 #import "LTShufflingView.h"
+#import "LTTimeSelectorView.h"
 #import "LTUpDownButton.h"
 
 FOUNDATION_EXPORT double LTCustomViewsVersionNumber;

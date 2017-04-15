@@ -21,6 +21,7 @@ PODS:
     - LTCustomViews/LTMenueView (= 0.3.0)
     - LTCustomViews/LTSegmentBar (= 0.3.0)
     - LTCustomViews/LTShufflingView (= 0.3.0)
+    - LTCustomViews/LTTimeSelectorView (= 0.3.0)
     - LTCustomViews/LTUpDownButton (= 0.3.0)
     - MJExtension
     - SDWebImage
@@ -37,6 +38,10 @@ PODS:
   - LTCustomViews/LTShufflingView (0.3.0):
     - AFNetworking
     - LTCustomFunctions/LTTimer
+    - MJExtension
+    - SDWebImage
+  - LTCustomViews/LTTimeSelectorView (0.3.0):
+    - AFNetworking
     - MJExtension
     - SDWebImage
   - LTCustomViews/LTUpDownButton (0.3.0):
@@ -59,7 +64,7 @@ SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   LTCustomCategorys: 18f4876ed68e7f6573b5a4cd4fc1349e01f881d9
   LTCustomFunctions: ff51abafc1b80f20ca9a121e9cba92820457d12b
-  LTCustomViews: 23576c018e6906c4eec6389e603068823c59d8b4
+  LTCustomViews: 92ff5453cf10a25cecea15f795761f7155a16836
   MJExtension: 5932755f451458eefa24239358817f8d291240c7
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
 
