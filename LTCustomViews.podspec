@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LTCustomViews'
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   s.summary          = 'LTCustomViews.'
 
 # This description is used to generate tags and improve search results.
@@ -53,10 +53,17 @@ Pod::Spec.new do |s|
     sb.dependency 'LTCustomCategorys/UIView'
   end
 
-# 时间选择弹窗
+ # 时间选择弹窗
   s.subspec 'LTTimeSelectorView' do |t|
     t.source_files = 'LTCustomViews/Classes/LTTimeSelectorView/**/*'
   end
+
+ # 时间选择弹窗
+  s.subspec 'LTPagingBar' do |p|
+    p.source_files = 'LTCustomViews/Classes/LTPagingBar/**/*'
+    p.dependency 'LTCustomCategorys/UIView'
+  end
+
 
 #s.dependency 'AFNetworking'
 #s.dependency 'MJExtension'

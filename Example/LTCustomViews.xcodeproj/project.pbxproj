@@ -28,6 +28,7 @@
 		702346AB1E9F409700EE18CA /* LTBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 702346AA1E9F409700EE18CA /* LTBaseViewController.m */; };
 		705C830D1EA2078C00E9D818 /* LTTimeSelectorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 705C830C1EA2078C00E9D818 /* LTTimeSelectorViewController.m */; };
 		70687F761EA1013E0007B9CA /* LTSegmentBarVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 70687F751EA1013E0007B9CA /* LTSegmentBarVc.m */; };
+		70A19DB41EB9B6F500D781B9 /* LTPagingBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70A19DB31EB9B6F500D781B9 /* LTPagingBarViewController.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		9BCD3F8AF24D6F44030F0D89 /* Pods_LTCustomViews_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08F1E723A998AB21EDAE64CF /* Pods_LTCustomViews_Tests.framework */; };
@@ -80,6 +81,8 @@
 		705C830C1EA2078C00E9D818 /* LTTimeSelectorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTTimeSelectorViewController.m; sourceTree = "<group>"; };
 		70687F741EA1013E0007B9CA /* LTSegmentBarVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTSegmentBarVc.h; sourceTree = "<group>"; };
 		70687F751EA1013E0007B9CA /* LTSegmentBarVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTSegmentBarVc.m; sourceTree = "<group>"; };
+		70A19DB21EB9B6F500D781B9 /* LTPagingBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LTPagingBarViewController.h; sourceTree = "<group>"; };
+		70A19DB31EB9B6F500D781B9 /* LTPagingBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LTPagingBarViewController.m; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8DEF1A41D9C93D727D32767A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -201,6 +204,7 @@
 		702346921E9F3E3900EE18CA /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				70A19DAF1EB9B6E700D781B9 /* LTPagingBar */,
 				702346931E9F3E3900EE18CA /* LTViewController */,
 				702346941E9F3E3900EE18CA /* Main */,
 				7023469A1E9F3E3900EE18CA /* LTShufflingView */,
@@ -303,6 +307,31 @@
 			children = (
 			);
 			path = "View ";
+			sourceTree = "<group>";
+		};
+		70A19DAF1EB9B6E700D781B9 /* LTPagingBar */ = {
+			isa = PBXGroup;
+			children = (
+				70A19DB01EB9B6E700D781B9 /* Controller */,
+				70A19DB11EB9B6E700D781B9 /* View */,
+			);
+			path = LTPagingBar;
+			sourceTree = "<group>";
+		};
+		70A19DB01EB9B6E700D781B9 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70A19DB21EB9B6F500D781B9 /* LTPagingBarViewController.h */,
+				70A19DB31EB9B6F500D781B9 /* LTPagingBarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70A19DB11EB9B6E700D781B9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		BD28C413D1E4163C61644A6D /* Pods */ = {
@@ -524,6 +553,7 @@
 				702346A11E9F3E3900EE18CA /* LTAppDelegate.m in Sources */,
 				70687F761EA1013E0007B9CA /* LTSegmentBarVc.m in Sources */,
 				702346A51E9F3E3900EE18CA /* LTFocusImageModel.m in Sources */,
+				70A19DB41EB9B6F500D781B9 /* LTPagingBarViewController.m in Sources */,
 				705C830D1EA2078C00E9D818 /* LTTimeSelectorViewController.m in Sources */,
 				702346AB1E9F409700EE18CA /* LTBaseViewController.m in Sources */,
 				700924781EA0796E00D2ED05 /* LTSubViewController.m in Sources */,

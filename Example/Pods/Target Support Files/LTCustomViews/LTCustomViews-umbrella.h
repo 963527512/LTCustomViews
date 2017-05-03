@@ -11,6 +11,8 @@
 #endif
 
 #import "LTMenueView.h"
+#import "LTPagingBar.h"
+#import "LTPagingBarConfig.h"
 #import "LTSegmentBar.h"
 #import "LTSegmentBarConfig.h"
 #import "LTSegmentBarViewController.h"

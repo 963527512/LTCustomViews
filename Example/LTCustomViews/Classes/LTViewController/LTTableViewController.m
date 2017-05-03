@@ -10,6 +10,7 @@
 #import "LTShufflingViewController.h"           // 轮播图测试界面
 #import "LTSegmentBarVc.h"                      // 分段测试界面
 #import "LTTimeSelectorViewController.h"        // 时间选择器
+#import "LTPagingBarViewController.h"           // 分页栏
 
 @interface LTTableViewController ()
 
@@ -30,7 +31,8 @@
     self.titles = @[
                     @"LTShufflingView",
                     @"LTSegmentBar",
-                    @"LTTimeSelectorView"
+                    @"LTTimeSelectorView",
+                    @"LTPagingBar"
                     ];
 }
 
@@ -81,6 +83,11 @@
             [self.navigationController pushViewController:tsVc animated:YES];
         }
             break;
+        case 3:
+        {
+            LTPagingBarViewController *tsVc = [[LTPagingBarViewController alloc] init];
+            [self.navigationController pushViewController:tsVc animated:YES];
+        }
         default:
             break;
     }
