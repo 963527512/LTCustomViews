@@ -100,8 +100,6 @@
 
 - (void)setNormalSelectIndex:(NSInteger)normalSelectIndex
 {
-    if (_normalSelectIndex == normalSelectIndex) return;
-    
     _normalSelectIndex = normalSelectIndex;
     
     if (!self.btns.count || normalSelectIndex >= self.btns.count || normalSelectIndex < 0) return;
